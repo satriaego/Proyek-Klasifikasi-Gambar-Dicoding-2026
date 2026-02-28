@@ -23,7 +23,10 @@ Model mencapai akurasi di atas **95%** pada data training maupun validasi. Visua
 
 
 ## Inference & Deployment
-Proyek ini mencakup tahap inferensi menggunakan **TF-Lite** untuk memvalidasi model pada data baru secara efisien. Output prediksi dan bukti eksekusi tersedia di bagian akhir notebook.
+Tahap inferensi menggunakan import **SavedModel** untuk memvalidasi model pada data baru.
+<p align="center">
+  <img src="https://lh3.googleusercontent.com/u/0/d/1FxNPIcXtaCCQiImkeWB_RIhIFr41p_Im" width="600" title="Accuracy Plot">
+</p>
 
 ---
 *Project ini memenuhi seluruh kriteria wajib dan saran submission klasifikasi gambar.*
